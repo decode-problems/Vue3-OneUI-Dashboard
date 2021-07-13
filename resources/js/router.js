@@ -1,10 +1,9 @@
 import {createRouter, createWebHistory} from 'vue-router'
-
-const Home = {template: '<div>Home</div>'}
-const About = {template: '<div>About</div>'}
+import Dashboard from "./components/Dashboard";
+import About from "./components/About";
 
 const routes = [
-    {path: '/', component: Home},
+    {path: '/', component: Dashboard},
     {path: '/about', component: About},
 ]
 
